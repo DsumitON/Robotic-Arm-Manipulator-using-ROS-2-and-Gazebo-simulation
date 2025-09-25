@@ -1,0 +1,78 @@
+[0.029s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_bringup:/home/sksuser/arduinobot_ws/install/arduinobot_remote:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_examples:/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_firmware:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/home/sksuser/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_controller -- -j8 -l8
+[0.090s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.594s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.720s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.743s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.764s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.058s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.122s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.188s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.192s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.229s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.305s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.306s] -- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.907s] -- Configuring done
+[1.938s] -- Generating done
+[1.959s] -- Build files have been written to: /home/sksuser/arduinobot_ws/build/arduinobot_controller
+[2.016s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_controller[0m
+[2.019s] [35m[1mConsolidate compiler generated dependencies of target slider_control[0m
+[2.062s] [  0%] Built target ament_cmake_python_copy_arduinobot_controller
+[2.064s] [ 50%] Built target slider_control
+[2.068s] [100%] Built target arduinobot_controller
+[2.933s] running egg_info
+[2.935s] writing arduinobot_controller.egg-info/PKG-INFO
+[2.936s] writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt
+[2.937s] writing top-level names to arduinobot_controller.egg-info/top_level.txt
+[2.946s] reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[2.947s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[3.019s] [100%] Built target ament_cmake_python_build_arduinobot_controller_egg
+[3.047s] Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_bringup:/home/sksuser/arduinobot_ws/install/arduinobot_remote:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_examples:/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_firmware:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/home/sksuser/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_controller -- -j8 -l8
+[3.052s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_bringup:/home/sksuser/arduinobot_ws/install/arduinobot_remote:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_examples:/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_firmware:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/home/sksuser/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_controller
+[3.073s] -- Install configuration: ""
+[3.074s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/arduinobot_controller.xml
+[3.076s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh
+[3.076s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv
+[3.076s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info
+[3.077s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[3.077s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.077s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[3.077s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.077s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller
+[3.078s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/__init__.py
+[3.078s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/slider_control.py
+[3.183s] Listing '/home/sksuser/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller'...
+[3.194s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control
+[3.195s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/lib/libarduinobot_controller.so
+[3.196s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/include/include
+[3.196s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller
+[3.196s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+[3.196s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+[3.197s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
+[3.197s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[3.197s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[3.197s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[3.197s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py
+[3.197s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.sh
+[3.197s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.dsv
+[3.197s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[3.198s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[3.198s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[3.198s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[3.198s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[3.198s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[3.198s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[3.198s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[3.199s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[3.199s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[3.199s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[3.199s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[3.199s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller
+[3.199s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.199s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[3.200s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.200s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[3.200s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[3.200s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[3.204s] Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_bringup:/home/sksuser/arduinobot_ws/install/arduinobot_remote:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_examples:/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_firmware:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/home/sksuser/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_controller

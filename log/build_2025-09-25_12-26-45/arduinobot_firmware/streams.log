@@ -1,0 +1,94 @@
+[0.026s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sksuser/arduinobot_ws/src/arduinobot_firmware -DCMAKE_INSTALL_PREFIX=/home/sksuser/arduinobot_ws/install/arduinobot_firmware
+[0.235s] -- The C compiler identification is GNU 11.4.0
+[0.396s] -- The CXX compiler identification is GNU 11.4.0
+[0.414s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.553s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.554s] -- Detecting C compile features
+[0.555s] -- Detecting C compile features - done
+[0.559s] -- Detecting CXX compiler ABI info
+[0.700s] -- Detecting CXX compiler ABI info - done
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.736s] -- Detecting CXX compile features
+[0.738s] -- Detecting CXX compile features - done
+[0.744s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.201s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.321s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.333s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.353s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.559s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.568s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.639s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.664s] -- Looking for pthread.h
+[1.816s] -- Looking for pthread.h - found
+[1.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.968s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.970s] -- Found Threads: TRUE  
+[2.115s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[2.126s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.127s] -- Checking for module 'libserial'
+[2.151s] --   Found libserial, version 1.0.0
+[2.482s] -- Configuring done
+[2.519s] -- Generating done
+[2.536s] -- Build files have been written to: /home/sksuser/arduinobot_ws/build/arduinobot_firmware
+[2.557s] Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sksuser/arduinobot_ws/src/arduinobot_firmware -DCMAKE_INSTALL_PREFIX=/home/sksuser/arduinobot_ws/install/arduinobot_firmware
+[2.561s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_firmware -- -j8 -l8
+[2.672s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[2.675s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[2.688s] [ 50%] Built target ament_cmake_python_copy_arduinobot_firmware
+[3.409s] running egg_info
+[3.410s] creating arduinobot_firmware.egg-info
+[3.410s] writing arduinobot_firmware.egg-info/PKG-INFO
+[3.410s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[3.411s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[3.411s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.420s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.422s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.467s] [ 50%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[17.104s] [ 75%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[17.673s] [ 75%] Built target simple_serial_receiver
+[24.779s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[26.027s] [100%] Built target simple_serial_transmitter
+[26.092s] Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_firmware -- -j8 -l8
+[26.101s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_firmware
+[26.139s] -- Install configuration: ""
+[26.141s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[26.143s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[26.143s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info
+[26.144s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[26.145s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[26.145s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[26.145s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[26.146s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware
+[26.148s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py
+[26.148s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py
+[26.148s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py
+[26.374s] Listing '/home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware'...
+[26.374s] Compiling '/home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py'...
+[26.374s] Compiling '/home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py'...
+[26.374s] Compiling '/home/sksuser/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py'...
+[26.394s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver
+[26.398s] -- Set runtime path of "/home/sksuser/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver" to ""
+[26.399s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter
+[26.412s] -- Set runtime path of "/home/sksuser/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter" to ""
+[26.412s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[26.412s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
+[26.416s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[26.416s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[26.416s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[26.416s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[26.417s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[26.417s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[26.418s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[26.419s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[26.419s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[26.421s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[26.423s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[26.425s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[26.426s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[26.427s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[26.427s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[26.461s] Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_firmware
