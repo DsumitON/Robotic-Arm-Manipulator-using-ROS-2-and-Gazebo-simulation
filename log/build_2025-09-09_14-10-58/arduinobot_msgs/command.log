@@ -1,2 +1,0 @@
-Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_msgs': /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_msgs -- -j8 -l8
-Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_msgs' returned '2': /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_msgs -- -j8 -l8

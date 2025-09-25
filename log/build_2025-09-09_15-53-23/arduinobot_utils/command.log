@@ -1,4 +1,0 @@
-Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_utils -- -j8 -l8
-Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_utils -- -j8 -l8
-Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_utils
-Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_utils

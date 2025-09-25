@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target simple_action_server_node[0m
-[35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
-[ 25%] Built target simple_subscriber
-[ 50%] Built target simple_publisher
-[ 75%] Built target simple_action_server_node
-[ 87%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m

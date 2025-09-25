@@ -1,5 +1,0 @@
-  File "/home/sksuser/arduinobot_ws/install/arduinobot_py_example/lib/python3.10/site-packages/arduinobot_py_example/simple_subscriber.py", line 26
-    main())
-          ^
-SyntaxError: unmatched ')'
-
