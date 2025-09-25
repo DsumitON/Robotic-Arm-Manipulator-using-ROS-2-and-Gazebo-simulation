@@ -1,0 +1,10 @@
+[31mCMake Error at CMakeLists.txt:46 (install):
+  install TARGETS given target "simple_moveit_interface" which does not
+  exist.
+
+[0m
+[31mCMake Error at CMakeLists.txt:54 (install):
+  install TARGETS given target "simple_action_client" which does not exist.
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

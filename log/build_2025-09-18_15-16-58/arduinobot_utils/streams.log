@@ -1,0 +1,9 @@
+[0.789s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/sksuser/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/sksuser/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sksuser/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_utils -- -j8 -l8
+[0.973s] Built target ament_cmake_python_copy_arduinobot_utils
+[1.861s] running egg_info
+[1.863s] writing arduinobot_utils.egg-info/PKG-INFO
+[1.864s] writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+[1.864s] writing top-level names to arduinobot_utils.egg-info/top_level.txt
+[1.871s] reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[1.872s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[1.939s] Built target ament_cmake_python_build_arduinobot_utils_egg

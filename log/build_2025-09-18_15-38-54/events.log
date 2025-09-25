@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.001357] (-) JobUnselected: {'identifier': 'arduinobot_controller'}
+[0.002157] (-) JobUnselected: {'identifier': 'arduinobot_description'}
+[0.002691] (-) JobUnselected: {'identifier': 'arduinobot_moveit'}
+[0.003330] (-) JobUnselected: {'identifier': 'arduinobot_msgs'}
+[0.003483] (-) JobUnselected: {'identifier': 'arduinobot_py_example'}
+[0.003591] (-) JobUnselected: {'identifier': 'arduinobot_utils'}
+[0.003633] (arduinobot_cpp_example) JobQueued: {'identifier': 'arduinobot_cpp_example', 'dependencies': OrderedDict([('arduinobot_msgs', '/home/sksuser/arduinobot_ws/install/arduinobot_msgs')])}
+[0.003922] (arduinobot_cpp_example) JobStarted: {'identifier': 'arduinobot_cpp_example'}
+[0.048271] (arduinobot_cpp_example) JobProgress: {'identifier': 'arduinobot_cpp_example', 'progress': 'cmake'}
+[0.050872] (arduinobot_cpp_example) JobProgress: {'identifier': 'arduinobot_cpp_example', 'progress': 'build'}
+[0.053000] (arduinobot_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example', '--', '-j8', '-l8'], 'cwd': '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sksuser'), ('LC_TIME', 'fi_FI.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sksuser/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sksuser'), ('OLDPWD', '/home/sksuser'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('MANAGERPID', '2209'), ('SYSTEMD_EXEC_PID', '2489'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '61616'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/sksuser/arduinobot_ws/install:/home/sksuser/my_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sksuser'), ('JOURNAL_STREAM', '8:17655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sksuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sksuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SKSUbuntu:@/tmp/.ICE-unix/2462,unix/SKSUbuntu:/tmp/.ICE-unix/2462'), ('INVOCATION_ID', '9936330d6e744e71ab4628702f87c43f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_py_example:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_example:/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:314cc347-dde7-4363-8868-fc7117d1ed53'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sksuser/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages:/home/sksuser/arduinobot_ws/install/arduinobot_py_example/lib/python3.10/site-packages:/home/sksuser/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_example:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/home/sksuser/arduinobot_ws/install/arduinobot_py_example:/opt/ros/humble')]), 'shell': False}
+[0.099039] (-) TimerEvent: {}
+[0.174704] (arduinobot_cpp_example) StdoutLine: {'line': b'[ 25%] Built target simple_action_server_node\n'}
+[0.177246] (arduinobot_cpp_example) StdoutLine: {'line': b'[ 50%] Built target simple_publisher\n'}
+[0.177975] (arduinobot_cpp_example) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o\x1b[0m\n'}
+[0.181183] (arduinobot_cpp_example) StdoutLine: {'line': b'[ 87%] Built target simple_subscriber\n'}
+[0.199178] (-) TimerEvent: {}
+[0.299725] (-) TimerEvent: {}
+[0.400284] (-) TimerEvent: {}
+[0.501215] (-) TimerEvent: {}
+[0.601632] (-) TimerEvent: {}
+[0.702038] (-) TimerEvent: {}
+[0.802551] (-) TimerEvent: {}
+[0.903525] (-) TimerEvent: {}
+[1.004323] (-) TimerEvent: {}
+[1.104661] (-) TimerEvent: {}
+[1.205287] (-) TimerEvent: {}
+[1.306447] (-) TimerEvent: {}
+[1.407008] (-) TimerEvent: {}
+[1.507350] (-) TimerEvent: {}
+[1.607863] (-) TimerEvent: {}
+[1.708653] (-) TimerEvent: {}
+[1.809261] (-) TimerEvent: {}
+[1.909639] (-) TimerEvent: {}
+[2.010038] (-) TimerEvent: {}
+[2.110623] (-) TimerEvent: {}
+[2.211670] (-) TimerEvent: {}
+[2.312047] (-) TimerEvent: {}
+[2.412501] (-) TimerEvent: {}
+[2.513036] (-) TimerEvent: {}
+[2.613469] (-) TimerEvent: {}
+[2.713851] (-) TimerEvent: {}
+[2.814244] (-) TimerEvent: {}
+[2.914644] (-) TimerEvent: {}
+[3.015059] (-) TimerEvent: {}
+[3.115523] (-) TimerEvent: {}
+[3.215902] (-) TimerEvent: {}
+[3.316304] (-) TimerEvent: {}
+[3.416817] (-) TimerEvent: {}
+[3.517195] (-) TimerEvent: {}
+[3.617522] (-) TimerEvent: {}
+[3.717918] (-) TimerEvent: {}
+[3.818288] (-) TimerEvent: {}
+[3.918707] (-) TimerEvent: {}
+[4.019093] (-) TimerEvent: {}
+[4.119491] (-) TimerEvent: {}
+[4.219905] (-) TimerEvent: {}
+[4.320288] (-) TimerEvent: {}
+[4.420682] (-) TimerEvent: {}
+[4.521072] (-) TimerEvent: {}
+[4.621508] (-) TimerEvent: {}
+[4.722048] (-) TimerEvent: {}
+[4.822500] (-) TimerEvent: {}
+[4.922983] (-) TimerEvent: {}
+[5.023425] (-) TimerEvent: {}
+[5.123795] (-) TimerEvent: {}
+[5.224193] (-) TimerEvent: {}
+[5.324648] (-) TimerEvent: {}
+[5.425019] (-) TimerEvent: {}
+[5.525440] (-) TimerEvent: {}
+[5.625923] (-) TimerEvent: {}
+[5.726302] (-) TimerEvent: {}
+[5.826759] (-) TimerEvent: {}
+[5.927127] (-) TimerEvent: {}
+[6.027530] (-) TimerEvent: {}
+[6.086436] (arduinobot_cpp_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_action_server.so\x1b[0m\n'}
+[6.127654] (-) TimerEvent: {}
+[6.228018] (-) TimerEvent: {}
+[6.328536] (-) TimerEvent: {}
+[6.336367] (arduinobot_cpp_example) StdoutLine: {'line': b'[100%] Built target simple_action_server\n'}
+[6.358836] (arduinobot_cpp_example) CommandEnded: {'returncode': 0}
+[6.360164] (arduinobot_cpp_example) JobProgress: {'identifier': 'arduinobot_cpp_example', 'progress': 'install'}
+[6.376281] (arduinobot_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example'], 'cwd': '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sksuser'), ('LC_TIME', 'fi_FI.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sksuser/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sksuser'), ('OLDPWD', '/home/sksuser'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('MANAGERPID', '2209'), ('SYSTEMD_EXEC_PID', '2489'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '61616'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/sksuser/arduinobot_ws/install:/home/sksuser/my_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sksuser'), ('JOURNAL_STREAM', '8:17655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sksuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sksuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SKSUbuntu:@/tmp/.ICE-unix/2462,unix/SKSUbuntu:/tmp/.ICE-unix/2462'), ('INVOCATION_ID', '9936330d6e744e71ab4628702f87c43f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_py_example:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_example:/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:314cc347-dde7-4363-8868-fc7117d1ed53'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sksuser/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages:/home/sksuser/arduinobot_ws/install/arduinobot_py_example/lib/python3.10/site-packages:/home/sksuser/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sksuser/arduinobot_ws/install/arduinobot_msgs:/home/sksuser/arduinobot_ws/install/arduinobot_utils:/home/sksuser/arduinobot_ws/install/arduinobot_cpp_example:/home/sksuser/arduinobot_ws/install/arduinobot_moveit:/home/sksuser/arduinobot_ws/install/arduinobot_description:/home/sksuser/arduinobot_ws/install/arduinobot_controller:/home/sksuser/my_robot_ws/install/my_robot_bringup:/home/sksuser/my_robot_ws/install/my_robot_description:/home/sksuser/arduinobot_ws/install/arduinobot_py_example:/opt/ros/humble')]), 'shell': False}
+[6.391884] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.392352] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/lib/arduinobot_cpp_example/simple_action_server_node\n'}
+[6.393492] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/lib/arduinobot_cpp_example/simple_publisher\n'}
+[6.394359] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/lib/arduinobot_cpp_example/simple_subscriber\n'}
+[6.395271] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/lib/libsimple_action_server.so\n'}
+[6.397950] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Set runtime path of "/home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/lib/libsimple_action_server.so" to ""\n'}
+[6.398396] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_example\n'}
+[6.398803] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_example\n'}
+[6.399091] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/environment/ament_prefix_path.sh\n'}
+[6.399532] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/environment/ament_prefix_path.dsv\n'}
+[6.399731] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/environment/path.sh\n'}
+[6.399963] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/environment/path.dsv\n'}
+[6.400323] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/local_setup.bash\n'}
+[6.400809] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/local_setup.sh\n'}
+[6.401072] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/local_setup.zsh\n'}
+[6.401307] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/local_setup.dsv\n'}
+[6.401602] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/package.dsv\n'}
+[6.401839] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/ament_index/resource_index/packages/arduinobot_cpp_example\n'}
+[6.402066] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/ament_index/resource_index/rclcpp_components/arduinobot_cpp_example\n'}
+[6.402292] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/cmake/arduinobot_cpp_exampleConfig.cmake\n'}
+[6.402558] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/cmake/arduinobot_cpp_exampleConfig-version.cmake\n'}
+[6.402779] (arduinobot_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_cpp_example/share/arduinobot_cpp_example/package.xml\n'}
+[6.405587] (arduinobot_cpp_example) CommandEnded: {'returncode': 0}
+[6.429432] (-) TimerEvent: {}
+[6.457622] (arduinobot_cpp_example) JobEnded: {'identifier': 'arduinobot_cpp_example', 'rc': 0}
+[6.460332] (-) EventReactorShutdown: {}

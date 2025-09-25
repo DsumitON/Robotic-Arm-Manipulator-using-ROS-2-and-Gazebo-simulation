@@ -1,0 +1,2 @@
+arduinobot_cpp_example::SimpleActionServer;lib/libsimple_action_server.so
+arduinobot_cpp_example::SimpleActionClient;lib/libsimple_action_client.so

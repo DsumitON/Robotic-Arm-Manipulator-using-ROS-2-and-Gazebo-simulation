@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<robot name="demorobot">
+
+    <material name ="grey">
+        <color rgba="0.7 0.7 0.7 1"/>
+    
+    </material>
+    <material name ="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+    <material name ="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+    <material name ="green">
+        <color rgba="0 1 0 1"/>
+    </material>
+    <material name ="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+    <material name ="yellow">
+        <color rgba="1 1 0 1"/>
+    </material> 
+    <material name ="white">
+        <color rgba="1 1 1 1"/>
+    </material> 
+    <material name ="orange">
+        <color rgba="1 0.5 0 1"/>
+    </material>
+    <material name ="purple">
+        <color rgba="0.5 0 0.5 1"/>
+    </material> 
+
+    <link name="base_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0.1"/>
+            <material name="green"/>
+            <geometry>
+                <box size="0.6 0.4 0.2"/>
+            </geometry>
+        </visual>
+    </link>
+
+
+
+      <link name="lidar">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0.0"/>
+            <material name="yellow"/>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="base_lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar"/>
+        <origin rpy="0 0 0" xyz="0 0 0.225"/>
+
+
+
+    </joint>
+
+
+
+
+</robot>

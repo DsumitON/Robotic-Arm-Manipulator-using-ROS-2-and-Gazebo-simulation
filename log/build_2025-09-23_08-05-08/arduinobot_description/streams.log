@@ -1,0 +1,53 @@
+[0.028s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[0.078s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.506s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.687s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.696s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.698s] -- Added test 'lint_cmake' to check CMake code style
+[0.700s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.704s] -- Added test 'xmllint' to check XML markup files
+[0.707s] -- Configuring done
+[0.720s] -- Generating done
+[0.725s] -- Build files have been written to: /home/sksuser/arduinobot_ws/build/arduinobot_description
+[0.763s] Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[0.780s] Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_description
+[0.791s] -- Install configuration: ""
+[0.791s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+[0.792s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[0.792s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[0.792s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[0.793s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[0.793s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[0.793s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[0.793s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[0.794s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[0.794s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.794s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[0.795s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[0.795s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[0.795s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[0.795s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.796s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[0.796s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[0.796s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[0.796s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[0.796s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[0.797s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.797s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz
+[0.797s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[0.797s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.797s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.798s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.798s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.800s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.801s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.801s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.801s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.801s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.802s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.802s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.802s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.802s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.803s] -- Up-to-date: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.803s] -- Installing: /home/sksuser/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.804s] Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_description

@@ -1,0 +1,4 @@
+Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example': /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_cpp_example -- -j8 -l8
+Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example' returned '0': /usr/bin/cmake --build /home/sksuser/arduinobot_ws/build/arduinobot_cpp_example -- -j8 -l8
+Invoking command in '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example': /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_cpp_example
+Invoked command in '/home/sksuser/arduinobot_ws/build/arduinobot_cpp_example' returned '0': /usr/bin/cmake --install /home/sksuser/arduinobot_ws/build/arduinobot_cpp_example
